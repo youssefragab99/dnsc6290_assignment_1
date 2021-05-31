@@ -14,32 +14,32 @@ no_intro_rate_period_std,
 property_value_std, 
 term_360, 
 
-1. Loading in the required libraries
-Initializations
+1. Loading in the required libraries: 
+Initializations, 
 Importing data
 
-2. Data exploration
-Histograms
+2. Data exploration: 
+Histograms, 
 Correlation
 
-3. Fitting interpretable models
+3. Fitting interpretable models: 
 Splitting data into training and validation subsets
 
-4. Elastic Net
-Defining wrapper function for hyperparameter grid search
-Fitting elastic net
-Best AUC assessment
+4. Elastic Net: 
+Defining wrapper function for hyperparameter grid search, 
+Fitting elastic net, 
+Best AUC assessment, 
 Writing submission files
 
-5. Monotonic XGBoost
-Define utility function for random grid search
-Fit monotonic XGBoost with random grid search
-Basic AUC assessment
+5. Monotonic XGBoost: 
+Define utility function for random grid search, 
+Fit monotonic XGBoost with random grid search, 
+Basic AUC assessment, 
 Write submission file
 
-6. Random forest
-7. Explainable Boosting Machine
-Define utility function for random grid search
-Fit EBM with random grid search
-Basic AUC assessment
+6. Random forest: 
+7. Explainable Boosting Machine: 
+Define utility function for random grid search, 
+Fit EBM with random grid search, 
+Basic AUC assessment, 
 Write submission file
