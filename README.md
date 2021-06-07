@@ -37,8 +37,7 @@ Fit monotonic XGBoost with random grid search,
 Basic AUC assessment, 
 Write submission file
 
-6. Random forest: 
-7. Explainable Boosting Machine: 
+6. Explainable Boosting Machine: 
 Define utility function for random grid search, 
 Fit EBM with random grid search, 
 Basic AUC assessment, 
