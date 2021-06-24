@@ -60,18 +60,13 @@ Rubric:
 – Name and contact information for all group members. (Feel free to anonymize for this assignment.
 The idea for the real-world is to “sign” your work and make it easy to find yourself if there are
 problems in the future, i.e., accountability) (1 pt.)
+
 – Clearly delineated sections for:
 
-∗ Intended use ( 1
-2
-pt.)
-1
+∗ Intended use ( 1/2 pt.)
+  ∗ Training data ( 1/2 pt.)
 
-∗ Training data ( 1
-2
-pt.)
-
-∗ Evaluation data ( 1
+  ∗ Evaluation data ( 1
 2
 pt.)
 
