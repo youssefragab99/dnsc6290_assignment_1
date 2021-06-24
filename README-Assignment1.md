@@ -62,7 +62,6 @@ The idea for the real-world is to “sign” your work and make it easy to find 
 problems in the future, i.e., accountability) (1 pt.)
 
 – Clearly delineated sections for:
-JAIME
 
 ∗ Intended use ( 1/2 pt.)
 
@@ -100,6 +99,7 @@ pt.)
 • Content (13 pts.)
 
 JAIME
+
 – Intended use (2 pts.)
 ∗ Describe the business value of your group’s best remediated model
 ∗ Describe how your group’s best remediated model is designed to be used
@@ -108,6 +108,7 @@ JAIME
 purposes
 
 TING
+
 – Training data (2 pts.)
 ∗ State the source of training data
 ∗ State how training data was divided into training and validation data
@@ -120,6 +121,7 @@ TING
 ∗ State any differences in columns between training and evaluation (or test) data
 
 GARRETT/YOUSSEF
+
 – Model details (2 pts.)
 ∗ State the columns used as inputs in your group’s best remediated model
 ∗ State the columns used as targets in your group’s best remediated model
