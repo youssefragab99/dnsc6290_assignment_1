@@ -78,8 +78,6 @@ pt.)
 ∗ Model details ( 1
 2
 pt.)
-
-GARRETT/YOUSSEF
 ∗ Quantitative analysis ( 1
 2
 pt.)
@@ -100,6 +98,7 @@ pt.)
 2
 pt.)
 • Content (13 pts.)
+
 JAIME
 – Intended use (2 pts.)
 ∗ Describe the business value of your group’s best remediated model
