@@ -163,8 +163,7 @@ GARRETT/YOUSSEF
 * Provide at least one plot or table from each weekly assignment for a total of at least six plots, that must include the global variable importance and partial dependence of your group’s best remediated model.
 
 
-<img src="https://github.com/youssefragab99/dnsc6290_assignment_1/blob/main/Assignment2_partial_dep.svg" width="900" height="600">
-![Partial Dependence 1](https://github.com/youssefragab99/dnsc6290_assignment_1/blob/main/Assignment2_partial_dep.svg)
+![Partial Dependence 1](https://github.com/youssefragab99/dnsc6290_assignment_1/blob/main/Assignment2_partial_dep.svg){:height="36px" width="36px"}
 
 In Assignment 5, we created this image, displaying outliers and a tendency to predict non-high-priced data more accurately than high-priced. 
 ![Residuals with Outliers](https://github.com/youssefragab99/dnsc6290_assignment_1/blob/main/residuals_Assignment5.png)
