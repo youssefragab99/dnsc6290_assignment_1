@@ -161,14 +161,17 @@ GARRETT/YOUSSEF
 * State the metrics used to evaluate your group’s best remediated model
   * After remediating our best EBM model, we found that the AUC (area under Curve) was the best way. Our model got an AUC of .7953. 
 * State the values of the metrics for training, validation, and evaluation (or test) data – evaluation (or test) metrics come from the most recent class full evaluation results, link under Assignment 1.
+
 * Provide at least one plot or table from each weekly assignment for a total of at least six plots, that must include the global variable importance and partial dependence of your group’s best remediated model.
 
 In Assignment 1, before we began modeling, to get a better picture of the features and their potential interactions between one another, we created a correlation matrix. 
 
 ![Assignment1_Corr](https://user-images.githubusercontent.com/84480851/123499541-905b1180-d605-11eb-8e3d-164339f2acf0.png)
 
+In Assignment 2, we found each feature's importance in our EBM model. 
+![Assignment2_Feat_Importance](https://user-images.githubusercontent.com/84480851/123500168-0eb9b280-d60a-11eb-8eed-6885174a7fcb.PNG)
 
-In Assignment 2, we found the partial dependence for each of the ten variables for our 3 different models. The images of the best model are the ones on the right, EBM. 
+Also in Assignment 2, we found the partial dependence for each of the ten variables for our 3 different models. The images of the best model are the ones on the right, EBM. 
 
 ![Assignment2_Partial_Dep1](https://user-images.githubusercontent.com/84480851/123499394-69e8a680-d604-11eb-934d-68897aabdc0d.PNG)
 ![Assignment2_Partial_Dep2](https://user-images.githubusercontent.com/84480851/123499395-69e8a680-d604-11eb-9e10-69498a64afcd.PNG)
@@ -179,7 +182,8 @@ In Assignment 2, we found the partial dependence for each of the ten variables f
 In Assignment 3, we tried several different EBMs as we changed paramter values and searched for the best combination of AIR vs. AUC. The highest value of AUC above the minimum threshold of .80 AIR (Adverse Impact Ratio) is the EBM model we chose to retrain.
 ![Assignment3_AIRvsAUC](https://user-images.githubusercontent.com/84480851/123499802-3b1fff80-d607-11eb-9e42-534a69be5cc0.png)
 
-In Assignment 4,
+In Assignment 4, we simulated data to create an attack based on contextual information, such as domain knowledge and publicly available information. A few were created with binomial, exponential, and normal distributions, as is clearly seen below.
+
 ![Assignment4_SimulatedData](https://user-images.githubusercontent.com/84480851/123499935-314acc00-d608-11eb-8447-ee00a255ce06.png)
 
 
