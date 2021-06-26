@@ -101,7 +101,7 @@ pt.)
 
 JAIME
 
-– Intended use (2 pts.)
+### Intended use
 ∗ The Home Mortgage Disclosure Act (HMDA) data contains loan-level information about mortgages in the U.S. Despite the HMDA data is modified to guarantee the privacy of applicants and borrowers, the group’s best remediated model can identify and solve lending patterns implemented by financial institutions that could be considered discriminatory in terms of race and gender, mainly.
 
 ∗ The group’s best remediated model is as an Explainable Boosting Machine (EBM) that requires to state hyper parameters related to interactions, outer/inner bags, learning rate, validation size, sample leaves, jobs, threads and seeds.
@@ -157,14 +157,14 @@ GARRETT/YOUSSEF
     * The target, or dependent, variable in the model is P_default_next_month
 
 ∗ State the type of your group’s best remediated model
-    * The best remediated mdoel is an Explainable Boosting Machine
+    * The best remediated model is an Explainable Boosting Machine
     
 ∗ State the software used to implement your group’s best remediated model
     * The model was created using the interpret Package, specifically using the ExplainableBoostingClassifier function.
     
 ∗ State the version of the modeling software for your group’s best remediated model
     * The version of the interpret package used is the latest available version at the time of creation: interpret            0.2.4
-∗ State the hyperparameters or other settings of your group’s best remediated model
+∗ State the hyper parameters or other settings of your group’s best remediated model
     * Here is a list of the parameters used in the function, they were saved into a list called rems_params within the code: 
               'max_bins': 512,
               'max_interaction_bins': 16,
@@ -210,7 +210,7 @@ Also in Assignment 2, we found the partial dependence for each of the ten variab
 ![Assignment2_Partial_Dep4](https://user-images.githubusercontent.com/84480851/123499392-69501000-d604-11eb-9326-c3b02e28a450.PNG)
 ![Assignment2_Partial_Dep5](https://user-images.githubusercontent.com/84480851/123499393-69e8a680-d604-11eb-93cb-70a28f3d6798.PNG)
 
-In Assignment 3, we tried several different EBMs as we changed paramter values and searched for the best combination of AIR vs. AUC. The highest value of AUC above the minimum threshold of .80 AIR (Adverse Impact Ratio) is the EBM model we chose to retrain.
+In Assignment 3, we tried several different EBMs as we changed parameter values and searched for the best combination of AIR vs. AUC. The highest value of AUC above the minimum threshold of .80 AIR (Adverse Impact Ratio) is the EBM model we chose to retrain.
 ![Assignment3_AIRvsAUC](https://user-images.githubusercontent.com/84480851/123499802-3b1fff80-d607-11eb-9e42-534a69be5cc0.png)
 
 In Assignment 4, we simulated data to create an attack based on contextual information, such as domain knowledge and publicly available information. A few were created with binomial, exponential, and normal distributions, as is clearly seen below.
