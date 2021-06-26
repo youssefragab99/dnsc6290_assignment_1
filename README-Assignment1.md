@@ -163,7 +163,7 @@ GARRETT/YOUSSEF
 * Provide at least one plot or table from each weekly assignment for a total of at least six plots, that must include the global variable importance and partial dependence of your group’s best remediated model.
 
 
-![Residuals with Outliers](C:\Users\ghast\Desktop\Classes\Summer 2021\residuals_Assignment5.png)
+![Residuals with Outliers](https://github.com/youssefragab99/dnsc6290_assignment_1/blob/main/residuals_Assignment5.png)
 
 * Address other alternative models considered
 
