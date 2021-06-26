@@ -161,7 +161,10 @@ GARRETT/YOUSSEF
   * After remediating our best EBM model, we found that the AUC (area under Curve) was the best way. Our model got an AUC of .7953. 
 * State the values of the metrics for training, validation, and evaluation (or test) data – evaluation (or test) metrics come from the most recent class full evaluation results, link under Assignment 1.
 * Provide at least one plot or table from each weekly assignment for a total of at least six plots, that must include the global variable importance and partial dependence of your group’s best remediated model.
+
+
 ![Residuals with Outliers](C:\Users\ghast\Desktop\Classes\Summer 2021\residuals_Assignment5.png)
+
 * Address other alternative models considered
 
 EVERYONE SAT NIGHT
