@@ -1,3 +1,8 @@
+![Assignment2_Partial_Dep3](https://user-images.githubusercontent.com/84480851/123499391-69501000-d604-11eb-91a8-113ff34fc5a6.PNG)
+![Assignment2_Partial_Dep4](https://user-images.githubusercontent.com/84480851/123499392-69501000-d604-11eb-9326-c3b02e28a450.PNG)
+![Assignment2_Partial_Dep5](https://user-images.githubusercontent.com/84480851/123499393-69e8a680-d604-11eb-93cb-70a28f3d6798.PNG)
+![Assignment2_Partial_Dep1](https://user-images.githubusercontent.com/84480851/123499394-69e8a680-d604-11eb-934d-68897aabdc0d.PNG)
+![Assignment2_Partial_Dep2](https://user-images.githubusercontent.com/84480851/123499395-69e8a680-d604-11eb-9e10-69498a64afcd.PNG)
 # dnsc6290_assignment_1
 DNSC 6290 Assignment 1
 Youssef Ragab, Ting Huang, Jaime Sarmiento, Garrett Hastings
