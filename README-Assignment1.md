@@ -164,6 +164,8 @@ GARRETT/YOUSSEF
 
 
 
+![Partial Dependence 1](https://github.com/youssefragab99/dnsc6290_assignment_1/blob/main/Assignment2_partial_dep.svg)
+
 In Assignment 5, we created this image, displaying outliers and a tendency to predict non-high-priced data more accurately than high-priced. 
 ![Residuals with Outliers](https://github.com/youssefragab99/dnsc6290_assignment_1/blob/main/residuals_Assignment5.png)
 
