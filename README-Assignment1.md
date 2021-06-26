@@ -159,10 +159,15 @@ GARRETT/YOUSSEF
 1. Quantitative Analysis
 
 * State the metrics used to evaluate your group’s best remediated model
-  * After remediating our best EBM model, we found that the AUC (area under Curve) was the best way. Our model got an AUC of .7953. 
-* State the values of the metrics for training, validation, and evaluation (or test) data – evaluation (or test) metrics come from the most recent class full evaluation results, link under Assignment 1.
+  * The five different metrics used to evaluate our models were: ACC, AUC, F12, LogLoss, and MSE.
+  * ACC:  Maximum Accuracy
+  * AUC: Area Under the ROC Curve
+  * F1: Maximum F1 - measures sensitivity and precision
+  * LogLess: Weights predictions differently based on how confident the prediction was.
+  * MSE: Mean Squared Error - measures how accurate the predictions were, with further errors weighted more heavily.
+* We trained the model on 10 grid search runs, randomizing various parameters such as max bins, max interactions, outer bags, inner bags, etc. This resulted in a best grid search AUC score of .8281 on our training data. Our metrics against the validation sets were: Acc ranged from .897-.908 depending on the fold number, AUC from .827-.906, f1 from .369-.408, logloss from .245-.263, and MSE from .073-.08.
 
-* Provide at least one plot or table from each weekly assignment for a total of at least six plots, that must include the global variable importance and partial dependence of your group’s best remediated model.
+* Plots
 
 In Assignment 1, before we began modeling, to get a better picture of the features and their potential interactions between one another, we created a correlation matrix. 
 
@@ -191,6 +196,9 @@ In Assignment 5, we created this image, displaying outliers and a tendency to pr
 ![Residuals with Outliers](https://github.com/youssefragab99/dnsc6290_assignment_1/blob/main/residuals_Assignment5.png)
 
 * Address other alternative models considered
+* We also considered a GLM, a Monotonix XGBoost model, and a Random Forest model, but the results did not compare favorably to our EBM. Notably, the AUC's were consistently lower across the different validation folds for those models in comparison to our EBM.
+
+
 
 EVERYONE SAT NIGHT
 
