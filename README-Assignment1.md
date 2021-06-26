@@ -1,5 +1,5 @@
 
-# dnsc6290_assignment_1
+# Final Project (Assignment 6)
 DNSC 6290 Assignment 1
 Youssef Ragab, Ting Huang, Jaime Sarmiento, Garrett Hastings
 
