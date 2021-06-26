@@ -102,11 +102,13 @@ pt.)
 JAIME
 
 – Intended use (2 pts.)
-∗ Describe the business value of your group’s best remediated model
-∗ Describe how your group’s best remediated model is designed to be used
-∗ Describe the intended users for your group’s best remediated model
-∗ State whether your group’s best remediated model can or cannot be used for any additional
-purposes
+∗ The Home Mortgage Disclosure Act (HMDA) data contains loan-level information about mortgages in the U.S. Despite the HMDA data is modified to guarantee the privacy of applicants and borrowers, the group’s best remediated model can identify and solve lending patterns implemented by financial institutions that could be considered discriminatory in terms of race and gender, mainly.
+
+∗ The group’s best remediated model is as an Explainable Boosting Machine (EBM) that requires to state hyper parameters related to interactions, outer/inner bags, learning rate, validation size, sample leaves, jobs, threads and seeds.
+
+∗ The intended users of the EBM are financial institutions that do not want to be sued for implementing biased or discriminatory models to lend money. The group’s best remediated model is an ethical and explanatory model that can provide a technical reason of the approval or denial of each loan.
+
+∗ Additional purposes can be found in the mortgage market with institutions or applicants getting a better understanding of trends and patterns when offering or seeking a loan
 
 TING
 
