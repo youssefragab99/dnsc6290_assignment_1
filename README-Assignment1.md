@@ -155,14 +155,12 @@ GARRETT/YOUSSEF
               NTHREAD = 4
               SEED = 12345
               
-– Quantitative analysis (3 pts.)
-∗ State the metrics used to evaluate your group’s best remediated model
-∗ State the values of the metrics for training, validation, and evaluation (or test) data – evaluation (or test) metrics come from the most recent class full evaluation results, link under
-Assignment 1.
-∗ Provide at least one plot or table from each weekly assignment for a total of at least six plots,
-that must include the global variable importance and partial dependence of your group’s best
-remediated model.
-∗ Address other alternative models considered
+1. Quantitative Analysis
+
+* State the metrics used to evaluate your group’s best remediated model
+* State the values of the metrics for training, validation, and evaluation (or test) data – evaluation (or test) metrics come from the most recent class full evaluation results, link under Assignment 1.
+* Provide at least one plot or table from each weekly assignment for a total of at least six plots, that must include the global variable importance and partial dependence of your group’s best remediated model.
+* Address other alternative models considered
 
 EVERYONE SAT NIGHT
 
