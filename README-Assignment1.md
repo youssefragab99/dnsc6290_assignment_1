@@ -108,7 +108,7 @@ JAIME
 
 ∗ The intended users of the EBM are financial institutions that do not want to be sued for implementing biased or discriminatory models to lend money. The group’s best remediated model is an ethical and explanatory model that can provide a technical reason of the approval or denial of each loan.
 
-∗ Additional purposes can be found in the mortgage market with institutions or applicants getting a better understanding of trends and patterns when offering or seeking a loan
+∗ Additional purposes can be found in the mortgage market with institutions or applicants getting a better understanding of trends and patterns when offering or seeking a loan.
 
 TING
 
