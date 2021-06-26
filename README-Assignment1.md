@@ -112,7 +112,7 @@ TING
 
 ### Training data
 
-The Home Mortgage Disclosure Act (HMDA) training data can be downloaded from from [this folder](https://github.com/jphall663/GWU_rml/blob/bf2f60875315cff30257ee24036d8d47836e9ee8/assignments/data/hmda_train_preprocessed.zip) in the class repository.
+The Home Mortgage Disclosure Act (HMDA) training data can be downloaded from from [this link](https://github.com/jphall663/GWU_rml/blob/bf2f60875315cff30257ee24036d8d47836e9ee8/assignments/data/hmda_train_preprocessed.zip) in the class repository.
 
  * hmda train preprocessed.zip – Zipped CSV HMDA labeled training data
 
@@ -136,7 +136,7 @@ Columns:
 
 ### Evaluation data 
 
-The Home Mortgage Disclosure Act (HMDA) evaluation data can be downloaded from [this folder](https://github.com/jphall663/GWU_rml/blob/bf2f60875315cff30257ee24036d8d47836e9ee8/assignments/data/hmda_test_preprocessed.zip) in the class repository.
+The Home Mortgage Disclosure Act (HMDA) evaluation data can be downloaded from [this link](https://github.com/jphall663/GWU_rml/blob/bf2f60875315cff30257ee24036d8d47836e9ee8/assignments/data/hmda_test_preprocessed.zip) in the class repository.
 
 * hmda test preprocessed.zip – Zipped CSV HMDA unlabeled test data
 
