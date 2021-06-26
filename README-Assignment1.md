@@ -1,6 +1,5 @@
 
 # Final Project (Assignment 6)
-DNSC 6290 Assignment 1
 Youssef Ragab, Ting Huang, Jaime Sarmiento, Garrett Hastings
 
 Based on the assignment prompt, data exploration is performed as well as interpratable models such as elastic net, XGBoost, and Random forest are fitted. The target variable is high_priced, whereas the covariates are as follows: 
