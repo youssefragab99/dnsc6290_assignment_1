@@ -110,16 +110,40 @@ purposes
 
 TING
 
-– Training data (2 pts.)
-∗ State the source of training data
-∗ State how training data was divided into training and validation data
-∗ State the number of rows in training and validation data
-∗ Define the meaning of all training data columns
-∗ Define the meaning of all engineered columns
-– Evaluation data (2 pts.)
-∗ State the source of evaluation (or test) data
-∗ State the number of rows in evaluation (or test) data
-∗ State any differences in columns between training and evaluation (or test) data
+### Training data
+
+The Home Mortgage Disclosure Act (HMDA) training data can be downloaded from from [this folder](https://github.com/jphall663/GWU_rml/blob/bf2f60875315cff30257ee24036d8d47836e9ee8/assignments/data/hmda_train_preprocessed.zip) in the class repository.
+
+ * hmda train preprocessed.zip – Zipped CSV HMDA labeled training data
+
+The training data was divided into training and validation data with a 70%/30% train/test split.
+
+Training data contains 112085 rows.
+Validation data contains 48253 rows.
+
+Columns:
+* high priced: Binary target, whether (1) or not (0) the annual percentage rate (APR) charged for a mortgage is 150 basis points (1.5%) or more above a survey-based estimate of similar mortgages. (High-priced mortgages are legal, but somewhat punitive to borrowers. High-priced mortgages often fall on the shoulders of minority home owners, and are one of many issues that perpetuates a massive disparity in overall wealth between different demographic groups in the US.)
+ * conforming: Binary numeric input, whether the mortgage conforms to normal standards (1), or whether the loan is different (0), e.g., jumbo, HELOC, reverse mortgage, etc. 
+* debt to income ratio std: Numeric input, standardized debt-to-income ratio for mortgage applicants. 
+* debt to income ratio missing: Binary numeric input, missing marker (1) for debt to income ratio std. 
+* income std: Numeric input, standardized income for mortgage applicants. 
+* loan amount std: Numeric input, standardized amount of the mortgage for applicants.
+* intro rate period std: Numeric input, standardized introductory rate period for mortgage applicants. 1 
+* loan to value ratio std: Numeric input, ratio of the mortgage size to the value of the property for mortgage applicants. 
+* no intro rate period std: Binary numeric input, whether or not a mortgage does not include an introductory rate period. • property value std: Numeric input, value of the mortgaged property. 
+* term 360: Binary numeric input, whether the mortgage is a standard 360 month mortgage (1) or a different type of mortgage (0).
+
+
+### Evaluation data 
+
+The Home Mortgage Disclosure Act (HMDA) evaluation data can be downloaded from [this folder](https://github.com/jphall663/GWU_rml/blob/bf2f60875315cff30257ee24036d8d47836e9ee8/assignments/data/hmda_test_preprocessed.zip) in the class repository.
+
+* hmda test preprocessed.zip – Zipped CSV HMDA unlabeled test data
+
+Evaluation data contains 19831 rows.
+
+Since it’s an evaluation data, it does not contain ‘high price’ column like training data does. ‘high price’ is the response variable.
+
 
 GARRETT/YOUSSEF
 
