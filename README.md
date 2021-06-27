@@ -108,7 +108,8 @@ In Assignment 4, we simulated data to create an attack based on contextual infor
 ![Assignment4_SimulatedData](https://user-images.githubusercontent.com/84480851/123499935-314acc00-d608-11eb-8447-ee00a255ce06.png)
 
 
-In Assignment 5, we created this image, displaying outliers and a tendency to predict non-high-priced data more accurately than high-priced. 
+In Assignment 5, we created this image, displaying outliers and a tendency to predict non-high-priced data more accurately than high-priced.
+
 ![Residuals with Outliers](https://github.com/youssefragab99/dnsc6290_assignment_1/blob/main/residuals_Assignment5.png)
 
 * We also considered a GLM, a Monotonic XGBoost model, and a Random Forest model, but the results did not compare favorably to our EBM. Notably, the AUC's were consistently lower across the different validation folds for those models in comparison to our EBM.
