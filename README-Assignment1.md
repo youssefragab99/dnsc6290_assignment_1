@@ -11,8 +11,6 @@ Youssef Ragab, Ting Huang, Jaime Sarmiento, Garrett Hastings
 
 ∗ Additional purposes can be found in the mortgage market with institutions or applicants getting a better understanding of trends and patterns when offering or seeking a loan.
 
-TING
-
 ### Training data
 
 The Home Mortgage Disclosure Act (HMDA) training data can be downloaded from from [this link](https://github.com/jphall663/GWU_rml/blob/bf2f60875315cff30257ee24036d8d47836e9ee8/assignments/data/hmda_train_preprocessed.zip) in the class repository.
