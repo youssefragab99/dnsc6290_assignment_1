@@ -119,5 +119,5 @@ In Assignment 5, we created this image, displaying outliers and a tendency to pr
 * In regards to potential negative impacts, while our EBM is remediated to remove negative impacts to a few specific groups, by doing that we may have affected other groups unintentionally. We also possibly could have negatively affected a group for which we did not test.
 * Regarding uncertainty, using different versions of software packages could yield different results. 
 * Since this affects people's lives, it is of the utmost importance that the code is protected from hacking. Also, since so much money is at stake, this model could be more likely to be the subject of a hack.
-* The runtime during some model training was very significant so that more resources would be required to run this for a larger scale.  
+* The runtime during the model training was very significant so that more resources (hardware) would be required to run this for a larger scale.  
 
