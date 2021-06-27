@@ -3,11 +3,11 @@
 Youssef Ragab, Ting Huang, Jaime Sarmiento, Garrett Hastings
 
 ### Intended use
-∗ The Home Mortgage Disclosure Act (HMDA) data contains loan-level information about mortgages in the U.S. Despite the HMDA data is modified to guarantee the privacy of applicants and borrowers, the group’s best remediated model can identify and solve lending patterns implemented by financial institutions that could be considered discriminatory in terms of race and gender, mainly.
+∗ The Home Mortgage Disclosure Act (HMDA) data contains loan-level information about mortgages in the U.S. The HMDA data is modified to guarantee the privacy of applicants and borrowers. Our best remediated model can identify and solve lending patterns implemented by financial institutions that could be considered discriminatory in terms of race and gender, mainly.
 
-∗ The group’s best remediated model is as an Explainable Boosting Machine (EBM) that requires to state hyper parameters related to interactions, outer/inner bags, learning rate, validation size, sample leaves, jobs, threads and seeds.
+∗ Our group’s best remediated model is as an Explainable Boosting Machine (EBM) that requires to state hyper parameters related to interactions, outer/inner bags, learning rate, validation size, sample leaves, jobs, threads, and seeds.
 
-∗ The intended users of the EBM are financial institutions that do not want to be sued for implementing biased or discriminatory models to lend money. The group’s best remediated model is an ethical and explanatory model that can provide a technical reason of the approval or denial of each loan.
+∗ The intended users of the EBM are financial institutions that do not want to be sued for implementing biased or discriminatory models to lend money. Our best remediated model is an ethical and explanatory model that can provide a technical reason of the approval or denial of each loan.
 
 ∗ Additional purposes can be found in the mortgage market with institutions or applicants getting a better understanding of trends and patterns when offering or seeking a loan.
 
@@ -24,7 +24,7 @@ Validation data contains 48253 rows.
 
 Columns:
 * high priced: Binary target, whether (1) or not (0) the annual percentage rate (APR) charged for a mortgage is 150 basis points (1.5%) or more above a survey-based estimate of similar mortgages. (High-priced mortgages are legal, but somewhat punitive to borrowers. High-priced mortgages often fall on the shoulders of minority home owners, and are one of many issues that perpetuates a massive disparity in overall wealth between different demographic groups in the US.)
- * conforming: Binary numeric input, whether the mortgage conforms to normal standards (1), or whether the loan is different (0), e.g., jumbo, HELOC, reverse mortgage, etc. 
+* conforming: Binary numeric input, whether the mortgage conforms to normal standards (1), or whether the loan is different (0), e.g., jumbo, HELOC, reverse mortgage, etc. 
 * debt to income ratio std: Numeric input, standardized debt-to-income ratio for mortgage applicants. 
 * debt to income ratio missing: Binary numeric input, missing marker (1) for debt to income ratio std. 
 * income std: Numeric input, standardized income for mortgage applicants. 
@@ -43,14 +43,14 @@ The Home Mortgage Disclosure Act (HMDA) evaluation data can be downloaded from [
 
 Evaluation data contains 19831 rows.
 
-Since it’s an evaluation data, it does not contain ‘high price’ column like training data does. ‘high price’ is the response variable.
+Since it’s evaluation data, it does not contain ‘high price’ column like training data does. ‘high price’ is the response variable.
 
 
 * The columns used in the best remediated model are: 'property_value_std', 'no_intro_rate_period_std', 'loan_amount_std', 'income_std', 'conforming', 'intro_rate_period_std', 'debt_to_income_ratio_std', 'term_360'
 
 * The target, or dependent, variable in the model is P_default_next_month
 
-* The best remediated model is an Explainable Boosting Machine
+* The best remediated model is an Explainable Boosting Machine.
     
 * The model was created using the interpret Package, specifically using the ExplainableBoostingClassifier function.
 
